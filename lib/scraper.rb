@@ -27,6 +27,7 @@ class Scraper
         student[:github] = url
       else
         student[:blog] = url
+      end
     end
     student[:profile_quote] = page.css(".profile-quote").text if page.css(".profile-quote").text
     student[:bio] = page.css("p").text if page.css("p").text
