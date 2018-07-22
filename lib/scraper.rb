@@ -28,8 +28,5 @@ class Scraper
       else
         student[:blog] = url
     end
-
-
   end
-
 end
